@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+nav>a{
+  margin:1em;
+  text-decoration: none;
+}
+nav>a.active{
+  color:red;
+  font-weight: 900;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
